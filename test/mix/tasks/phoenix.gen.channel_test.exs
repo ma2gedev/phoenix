@@ -4,7 +4,7 @@ defmodule Phoenix.DupChannel do
 end
 
 defmodule Mix.Tasks.Phoenix.Gen.ChannelTest do
-  use ExUnit.Case
+  use PowerAssert
   import MixHelper
 
   setup do

@@ -7,7 +7,7 @@ defmodule Phoenix.DupJSONView do
 end
 
 defmodule Mix.Tasks.Phoenix.Gen.JsonTest do
-  use ExUnit.Case
+  use PowerAssert
   import MixHelper
 
   setup do

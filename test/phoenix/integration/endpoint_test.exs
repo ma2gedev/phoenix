@@ -1,7 +1,7 @@
 Code.require_file "../../support/http_client.exs", __DIR__
 
 defmodule Phoenix.Integration.EndpointTest do
-  use ExUnit.Case
+  use PowerAssert
 
   alias Phoenix.Integration.AdapterTest.ProdEndpoint
   alias Phoenix.Integration.AdapterTest.DevEndpoint

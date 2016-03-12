@@ -1,5 +1,5 @@
 defmodule Phoenix.Router.ResourceTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   defmodule Api.GenericController do

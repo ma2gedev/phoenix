@@ -6,7 +6,7 @@ defmodule Mix.RouterTest do
 end
 
 defmodule Mix.Tasks.Phoenix.RoutesTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   test "format routes for specific router" do
     Mix.Tasks.Phoenix.Routes.run(["Mix.RouterTest"])

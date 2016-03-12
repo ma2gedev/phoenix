@@ -1,5 +1,5 @@
 defmodule Phoenix.Channel.ChannelTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   @pubsub __MODULE__.PubSub
   import Phoenix.Channel

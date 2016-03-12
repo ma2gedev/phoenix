@@ -1,5 +1,5 @@
 defmodule Phoenix.TemplateTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   doctest Phoenix.Template
   alias Phoenix.Template

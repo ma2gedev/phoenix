@@ -14,7 +14,7 @@ defmodule Phoenix.PubSubTest do
 
   """
 
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Phoenix.PubSub
   alias Phoenix.PubSub.Local

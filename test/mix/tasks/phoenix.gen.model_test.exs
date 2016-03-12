@@ -8,7 +8,7 @@ defmodule Phoenix.Article do
 end
 
 defmodule Mix.Tasks.Phoenix.Gen.ModelTest do
-  use ExUnit.Case
+  use PowerAssert
   import MixHelper
 
   setup do

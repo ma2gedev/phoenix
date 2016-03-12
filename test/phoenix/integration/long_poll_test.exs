@@ -1,7 +1,7 @@
 Code.require_file "../../support/http_client.exs", __DIR__
 
 defmodule Phoenix.Integration.LongPollTest do
-  use ExUnit.Case
+  use PowerAssert
 
   import RouterHelper, only: [capture_log: 1]
 

@@ -1,5 +1,5 @@
 defmodule Phoenix.DigesterTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   test "fails when the given paths are invalid" do
     assert {:error, :invalid_path} = Phoenix.Digester.compile("nonexistent path", "/ ?? /path")

@@ -1,7 +1,7 @@
 Code.require_file "../../support/websocket_client.exs", __DIR__
 
 defmodule Phoenix.Integration.WebSocketTest do
-  use ExUnit.Case
+  use PowerAssert
 
   import RouterHelper, only: [capture_log: 1]
 

@@ -1,5 +1,5 @@
 defmodule Phoenix.LocalTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Phoenix.PubSub.Local
 

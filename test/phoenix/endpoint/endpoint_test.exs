@@ -1,5 +1,5 @@
 defmodule Phoenix.Endpoint.EndpointTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   @config [url: [host: "example.com", path: "/api"],

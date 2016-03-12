@@ -1,5 +1,5 @@
 defmodule Phoenix.CodeReloaderTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   Application.put_env(:phoenix, __MODULE__.Endpoint,

@@ -19,6 +19,7 @@ defmodule <%= application_module %>.ChannelCase do
     quote do
       # Import conveniences for testing with channels
       use Phoenix.ChannelTest
+      use PowerAssert
 <%= if ecto do %>
       alias <%= application_module %>.Repo
       import Ecto

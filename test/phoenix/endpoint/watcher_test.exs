@@ -1,5 +1,5 @@
 defmodule Phoenix.Endpoint.WatcherTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Phoenix.Endpoint.Watcher
   import ExUnit.CaptureIO

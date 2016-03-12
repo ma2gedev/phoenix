@@ -18,6 +18,7 @@ defmodule <%= application_module %>.ModelCase do
     quote do
       alias <%= application_module %>.Repo
 
+      use PowerAssert
       import Ecto
       import Ecto.Changeset
       import Ecto.Query, only: [from: 1, from: 2]

@@ -1,5 +1,5 @@
 defmodule Phoenix.ParamTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Phoenix.Param
 

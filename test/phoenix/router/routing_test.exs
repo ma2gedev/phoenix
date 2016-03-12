@@ -1,5 +1,5 @@
 defmodule Phoenix.Router.RoutingTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   defmodule UserController do

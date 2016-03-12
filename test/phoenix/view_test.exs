@@ -1,7 +1,7 @@
 Code.require_file "../fixtures/views.exs", __DIR__
 
 defmodule Phoenix.ViewTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   doctest Phoenix.View
   import Phoenix.View

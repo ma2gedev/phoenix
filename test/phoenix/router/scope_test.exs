@@ -1,5 +1,5 @@
 defmodule Phoenix.Router.ScopedRoutingTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   # Path scoping

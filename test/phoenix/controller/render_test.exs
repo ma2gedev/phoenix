@@ -1,7 +1,7 @@
 Code.require_file "../../fixtures/views.exs", __DIR__
 
 defmodule Phoenix.Controller.RenderTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   use RouterHelper
   import Phoenix.Controller

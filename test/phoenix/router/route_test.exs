@@ -1,5 +1,5 @@
 defmodule Phoenix.Router.RouteTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Phoenix.Router.Route
 

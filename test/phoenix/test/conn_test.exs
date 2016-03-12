@@ -26,7 +26,7 @@ defmodule Phoenix.Test.ConnTest.Router do
 end
 
 defmodule Phoenix.Test.ConnTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use Phoenix.ConnTest
   alias Phoenix.Test.ConnTest.Router
 

@@ -1,5 +1,5 @@
 defmodule Phoenix.PubSub.PubSubTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Phoenix.PubSub
   alias Phoenix.Socket.Broadcast

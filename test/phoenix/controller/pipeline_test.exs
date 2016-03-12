@@ -1,5 +1,5 @@
 defmodule Phoenix.Controller.PipelineTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   import Phoenix.Controller

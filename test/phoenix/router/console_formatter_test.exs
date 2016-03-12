@@ -1,5 +1,5 @@
 defmodule Phoenix.Router.ConsoleFormatterTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   alias Phoenix.Router.ConsoleFormatter
 
   defmodule RouterTestSingleRoutes do

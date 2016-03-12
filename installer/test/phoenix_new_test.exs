@@ -1,7 +1,7 @@
 Code.require_file "mix_helper.exs", __DIR__
 
 defmodule Mix.Tasks.Phoenix.NewTest do
-  use ExUnit.Case
+  use PowerAssert
   import MixHelper
 
   import ExUnit.CaptureIO

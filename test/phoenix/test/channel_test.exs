@@ -1,5 +1,5 @@
 defmodule Phoenix.Test.ChannelTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   config = [pubsub: [adapter: Phoenix.PubSub.PG2,
                      name: Phoenix.Test.ChannelTest.PubSub], server: false]

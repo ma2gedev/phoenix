@@ -7,7 +7,7 @@ defmodule Phoenix.DupHTMLView do
 end
 
 defmodule Mix.Tasks.Phoenix.Gen.HtmlTest do
-  use ExUnit.Case
+  use PowerAssert
   import MixHelper
 
   setup do

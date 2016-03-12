@@ -1,5 +1,5 @@
 defmodule Mix.PhoenixTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   doctest Mix.Phoenix, import: true
 

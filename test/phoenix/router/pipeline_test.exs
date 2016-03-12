@@ -85,7 +85,7 @@ end
 alias Phoenix.Router.PipelineTest.Router
 
 defmodule Phoenix.Router.PipelineTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   setup do

@@ -3,7 +3,8 @@
 Mix.shell(Mix.Shell.Process)
 
 defmodule MixHelper do
-  import ExUnit.Assertions
+  import ExUnit.Assertions, except: [assert: 1, assert: 2]
+  import PowerAssert.Assertion
 
   def tmp_path do
     Path.expand("../../tmp", __DIR__)

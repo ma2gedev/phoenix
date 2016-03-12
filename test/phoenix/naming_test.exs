@@ -1,5 +1,5 @@
 defmodule Phoenix.NamingTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   alias Phoenix.Naming
 
   doctest Naming

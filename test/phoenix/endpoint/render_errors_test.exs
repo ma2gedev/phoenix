@@ -1,5 +1,5 @@
 defmodule Phoenix.Endpoint.RenderErrorsTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   view = __MODULE__

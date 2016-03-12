@@ -1,5 +1,5 @@
 defmodule Phoenix.Transports.TransportTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   alias Phoenix.Socket.Transport

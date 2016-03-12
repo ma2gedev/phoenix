@@ -1,5 +1,5 @@
 defmodule Phoenix.Router.HelpersTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   use RouterHelper
 
   alias Phoenix.Router.Helpers

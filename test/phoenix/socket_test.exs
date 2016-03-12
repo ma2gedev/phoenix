@@ -1,5 +1,5 @@
 defmodule Phoenix.SocketTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Phoenix.Socket
   alias Phoenix.Socket.Message

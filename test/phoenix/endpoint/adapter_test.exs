@@ -1,5 +1,5 @@
 defmodule Phoenix.Endpoint.AdapterTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   alias Phoenix.Endpoint.Adapter
 
   setup do

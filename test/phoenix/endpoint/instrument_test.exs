@@ -1,5 +1,5 @@
 defmodule Phoenix.Endpoint.InstrumentTest do
-  use ExUnit.Case
+  use PowerAssert
 
   @config [instrumenters: [__MODULE__.MyInstrumenter, __MODULE__.MyOtherInstrumenter]]
   Application.put_env(:phoenix, __MODULE__.Endpoint, @config)

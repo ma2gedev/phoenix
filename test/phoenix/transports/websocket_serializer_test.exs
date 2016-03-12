@@ -1,5 +1,5 @@
 defmodule Phoenix.Tranports.WebSocketSerializerTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Phoenix.Transports.WebSocketSerializer
   alias Phoenix.Socket.Message
